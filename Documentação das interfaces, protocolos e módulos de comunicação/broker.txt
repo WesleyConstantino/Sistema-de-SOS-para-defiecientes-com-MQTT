@@ -1,0 +1,2 @@
+O broker usado foi o Adafruit IO.
+Link: https://io.adafruit.com/
