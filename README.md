@@ -4,8 +4,7 @@
 
 Integrntes: Humberto Rodrigues Neto, Wesley Constantino dos Santos.
 Professor: Marcelo Teixeira de Azevedo.
-
-1Universidade Presbiteriana Mackenzie (UPM) 
+Universidade Presbiteriana Mackenzie (UPM) 
 
 
 Resumo: Este projeto propõe uma aplicação que simula a interação entre um botão físico e um botão digital, conforme as diretrizes do protocolo MQTT. Destinado a ambientes hospitalares e espaços públicos, o sistema visa facilitar a solicitação de ajuda por meio de um botão físico acessível, complementado por uma opção remota via celular e conectividade Wi-Fi usando MQTT. Ao pressionar o botão, um sinal é enviado, acionando uma notificação luminosa para profissionais responsáveis, como médicos e enfermeiros. Essa solução inovadora proporciona uma resposta eficiente a situações de emergência, promovendo a segurança e o rápido atendimento aos usuários necessitados. 
