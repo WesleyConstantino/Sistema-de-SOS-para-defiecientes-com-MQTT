@@ -1,7 +1,5 @@
 # Sistema-de-SOS-para-defiecientes-com-MQTT
 
-#Desenvolvimento e Implementação de um Sistema de Comunicação Emergencial Integrado utilizando Protocolo MQTT para Ambientes Hospitalares e Espaços Públicos  
-
 Integrntes: Humberto Rodrigues Neto, Wesley Constantino dos Santos.
 Professor: Marcelo Teixeira de Azevedo.
 Universidade Presbiteriana Mackenzie (UPM) 
@@ -19,27 +17,20 @@ A solução consiste em um botão físico de fácil alcance, proporcionando uma 
 Ao pressionar o botão, um sinal é enviado e uma notificação luminosa é ativada, alertando profissionais responsáveis do outro lado, como médicos, enfermeiros ou seguranças. Essa abordagem inovadora proporciona uma resposta rápida e eficaz às necessidades de assistência, garantindo um ambiente mais seguro para os usuários que buscam ajuda em situações críticas. 
 
 
-#Materiais  
-
-Para compor o nosso projeto, segue lista de materiais, juntamente com sua descrição: 
+#Hardware usado  
 
 01 Placa Arduino Node MCU – ESP 8266 – ESP-12E; 
-
 01 Placa Protoboard Transparente 400 pontos; 
-
 01 LED da Placa Node MCU; 
-
 03 Jumpers Macho-Macho; 
-
 01 Cabo USB; 
-
 01 Botão/sensor 
-
 01 Resistor 10k 
-
 01 Notebook; 
 
-Software Arduino IDE. 
+#IDE usada
+
+Arduino IDE. 
  
 
 #Método 
@@ -50,50 +41,17 @@ Este projeto propõe uma aplicação que simula a interação entre um botão f�
 
 #Passos do Projeto: 
 
-Configurar o Ambiente de Desenvolvimento: 
-
-Instale a IDE do Arduino em seu computador. 
-
-Adquira as bibliotecas necessárias para Wi-Fi e MQTT (por exemplo, PubSubClient). 
-
-Configurar o Arduino: 
-
-Selecione o modelo mais atual de Arduino na IDE. 
-
-Configure as informações de conexão Wi-Fi e MQTT (SSID, senha, servidor MQTT, etc.). 
-
-Conectar o Botão Físico: 
-
-Conecte o botão físico a uma porta digital do Arduino. 
-
-Conecte uma resistência pull-down entre a porta digital e o terra (GND). 
+1 - Configurar o Ambiente de Desenvolvimento: 
+2 - Instale a IDE do Arduino em seu computador. 
+3 - Adquira as bibliotecas necessárias para Wi-Fi e MQTT (por exemplo, PubSubClient). 
+4 - Configurar o Arduino: 
+5 - Selecione o modelo mais atual de Arduino na IDE. 
+6 - Configure as informações de conexão Wi-Fi e MQTT (SSID, senha, servidor MQTT, etc.). 
+7 - Conectar o Botão Físico: 
+8 - Conecte o botão físico a uma porta digital do Arduino. 
+9 - Conecte uma resistência pull-down entre a porta digital e o terra (GND). 
 
  
-
-#Funcionamento 
-
-Implementar o Código: 
-
-Utilize a IDE do Arduino para escrever o código, incorporando a lógica do projeto. 
-
-Integre a biblioteca PubSubClient para facilitar a comunicação MQTT. 
-
-Botão Virtual no Celular: 
-
-Configure um aplicativo MQTT no celular para simular o botão virtual. 
-
-Conecte o aplicativo ao mesmo servidor MQTT utilizado pelo Arduino. 
-
-Ao pressionar o botão virtual, o aplicativo deve publicar a mesma mensagem no tópico MQTT. 
-
-Receber Notificação Luminosa: 
-
-No lado do servidor, assine o tópico de notificação. 
-
-Quando uma mensagem for recebida nesse tópico, ative o LED ou dispositivo luminoso correspondente. 
-
- 
-
 #Conclusões 
 
 i. Os objetivos propostos foram alcançados? Parcialmente, infelizmente o nosso botão parou de funcionar e ficamos somente com a funcionalidade de acionamento da led pelo broker. 
